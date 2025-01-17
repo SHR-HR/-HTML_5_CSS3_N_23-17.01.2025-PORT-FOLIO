@@ -1,0 +1,309 @@
+@media (max-width: 1200px) {
+    /* Адаптивная версия для устройств с шириной экрана до 1200px */
+
+    /* Секция заголовка */
+    .header {
+        padding: 2rem 6rem; /* Уменьшаем внутренние отступы для более компактного отображения */
+    }
+
+    /* Секция "Обо мне" */
+    .about-area {
+        padding: 4rem 6rem 0rem; /* Уменьшаем отступы сверху и по бокам, чтобы секция выглядела сбалансированно */
+    }
+
+    /* Секция "Ход работ" */
+    .work-place {
+        padding: 3rem 6rem; /* Уменьшаем общие отступы для компактности */
+        background: #f6f6f6; /* Светлый фон для визуального разделения секции */
+    }
+    .work-place .card {
+        padding: 2rem 0; /* Уменьшаем отступы внутри карточек */
+    }
+    .work-place .card h4 {
+        font: normal 600 20px/26px var(--raleway); /* Уменьшаем размер шрифта для заголовков карточек */
+        text-transform: uppercase; /* Заглавные буквы для стиля */
+        padding-bottom: 1rem; /* Отступ снизу для разделения текста */
+    }
+
+    /* Секция "Биография" */
+    .bio-data {
+        padding: 4rem 6rem; /* Уменьшаем отступы сверху и по бокам */
+    }
+
+    /* Секция портфолио */
+    .portfolio-area {
+        padding: 4rem 6rem; /* Уменьшаем отступы сверху и по бокам */
+    }
+    .portfolio-area .portfolio-image img {
+        width: 100%; /* Устанавливаем ширину изображения на 100% от контейнера */
+        height: 200px; /* Уменьшаем высоту изображений для адаптации на меньших экранах */
+    }
+
+    /* Секция отзывов */
+    .testimonial-area {
+        padding: 6rem; /* Уменьшаем общие отступы */
+    }
+
+    /* Секция футера */
+    .footer-area .footer-top {
+        padding: 4rem 6rem; /* Уменьшаем внутренние отступы для компактности */
+    }
+}
+
+
+
+
+
+@media (max-width: 1050px) {
+    /* Адаптивная версия для устройств с шириной экрана до 1050px */
+
+    /* Секция заголовка */
+    .header {
+        padding: 2rem; /* Уменьшаем внутренние отступы, чтобы секция выглядела компактнее */
+    }
+
+    /* Секция "Обо мне" */
+    .about-area {
+        padding: 2rem 2rem 0rem; /* Уменьшаем отступы сверху и по бокам */
+    }
+    .about-area .about-content p {
+        font-size: 15px; /* Уменьшаем размер шрифта текста для адаптации под меньший экран */
+        padding-top: .8rem; /* Уменьшаем отступы между параграфами */
+    }
+
+    /* Секция "Ход работ" */
+    .work-place {
+        padding: 2rem 2rem; /* Уменьшаем внутренние отступы */
+        background: #f6f6f6; /* Светлый фон для визуального разделения секции */
+    }
+    .work-place .card {
+        padding: 2rem 0; /* Уменьшаем внутренние отступы в карточках */
+    }
+    .work-place .card h4 {
+        font: normal 600 18px/24px var(--raleway); /* Уменьшаем размер шрифта для заголовков карточек */
+        text-transform: uppercase; /* Заглавные буквы для стиля */
+        padding-bottom: .8rem; /* Уменьшаем отступ снизу для компактности */
+    }
+
+    /* Секция "Биография" */
+    .bio-data {
+        padding: 3rem 2rem; /* Уменьшаем отступы сверху и по бокам */
+    }
+
+    /* Секция портфолио */
+    .portfolio-area {
+        padding: 2rem; /* Уменьшаем отступы сверху и по бокам */
+    }
+    .portfolio-area .portfolio-image img {
+        width: 100%; /* Устанавливаем ширину изображения на 100% от контейнера */
+        height: 200px; /* Уменьшаем высоту изображений для компактного размещения */
+    }
+
+    /* Секция отзывов */
+    .testimonial-area {
+        padding: 2rem; /* Уменьшаем общие отступы */
+    }
+
+    /* Секция футера */
+    .footer-area .footer-top {
+        padding: 2rem 2rem; /* Уменьшаем отступы внутри футера */
+    }
+}
+
+
+
+
+
+@media (max-width: 920px) {
+    /* Этот медиазапрос применяется для устройств с шириной экрана до 920px */
+    
+    .title {
+        font: normal 700 40px/42px var(--raleway); /* Уменьшаем размер шрифта заголовков до 40px, чтобы они лучше помещались на меньшем экране */
+        padding: 1.5rem; /* Уменьшаем отступы вокруг заголовков для экономии пространства */
+    }
+
+    .default-box {
+        padding: 2rem 1.5rem; /* Уменьшаем внутренние отступы, чтобы секции выглядели компактнее */
+    }
+
+    .box-title {
+        font: normal 600 24px/25px var(--raleway); /* Уменьшаем размер шрифта подзаголовков до 24px */
+        padding-bottom: 1rem; /* Уменьшаем отступ снизу, чтобы секции выглядели сбалансированно */
+    }
+}
+
+
+
+
+
+@media (max-width: 800px) {
+    /* Этот медиазапрос применяется для устройств с шириной экрана до 800px */
+
+    .header {
+        padding: 2rem; /* Уменьшаем отступы в секции "header" для компактности */
+    }
+
+    /* about-area */
+    .about-area {
+        padding: 2rem 2rem 0rem; /* Уменьшаем верхние и боковые отступы в секции "about" */
+    }
+    .about-area .about-content h5 {
+        font: normal 500 16px/18px var(--roboto); /* Уменьшаем размер заголовка до 16px, чтобы он помещался на узком экране */
+    }
+    .about-area img {
+        margin-top: 4rem; /* Добавляем отступ сверху для изображения, чтобы оно было ниже */
+    }
+    .about-area .about-content p {
+        font-size: 15px; /* Уменьшаем размер шрифта для текста */
+        padding-top: 0.2rem; /* Уменьшаем отступ сверху для текста */
+    }
+
+    /* work-place area */
+    .work-place {
+        padding: 2rem 2rem; /* Уменьшаем внутренние отступы секции "work-place" */
+        background: #f6f6f6; /* Задаем светлый фон */
+    }
+    .work-place .card {
+        padding: 1rem 0; /* Уменьшаем внутренние отступы карточек */
+    }
+    .work-place .card h4 {
+        font: normal 600 15px/18px var(--raleway); /* Уменьшаем размер шрифта заголовков карточек до 15px */
+        text-transform: uppercase; /* Преобразуем текст в верхний регистр */
+        padding-bottom: 0.8rem; /* Уменьшаем отступ снизу */
+    }
+
+    /* bio-data */
+    .bio-data {
+        padding: 2rem 1rem; /* Уменьшаем внутренние отступы секции "bio-data" */
+    }
+
+    /* portfolio-area */
+    .portfolio-area {
+        padding: 2rem; /* Уменьшаем отступы вокруг секции "portfolio" */
+    }
+    .portfolio-area .portfolio-image img {
+        width: 100%; /* Изображения занимают всю ширину контейнера */
+        height: 160px; /* Ограничиваем высоту изображений, чтобы они выглядели компактно */
+    }
+
+    /* testimonial-area */
+    .testimonial-area {
+        padding: 2rem 1rem; /* Уменьшаем внутренние отступы секции "testimonial" */
+    }
+    .testimonial-area .fa {
+        font-size: 48px; /* Размер иконки цитаты */
+        color: #317688; /* Цвет иконки */
+    }
+    .testimonial-area p {
+        padding: 2rem 2rem 2rem 0; /* Уменьшаем отступы текста в секции отзывов */
+    }
+
+    /* footer-area */
+    .footer-area .footer-top {
+        padding: 2rem 1rem; /* Уменьшаем внутренние отступы верхней части футера */
+    }
+}
+
+
+
+
+
+@media (max-width: 560px) {
+    /* Этот медиазапрос применяется для устройств с шириной экрана до 560px */
+
+    .title {
+        font: normal 700 30px/32px var(--raleway); /* Уменьшаем размер заголовка до 30px, чтобы он соответствовал меньшему экрану */
+        padding: 1.5rem; /* Уменьшаем отступы вокруг заголовка */
+    }
+
+    .default-box {
+        padding: 2rem 1.5rem; /* Сокращаем внутренние отступы для более компактного отображения */
+        margin-bottom: 1rem; /* Добавляем нижний отступ между секциями */
+    }
+
+    .box-title {
+        font: normal 600 20px/20px var(--raleway); /* Уменьшаем размер шрифта заголовков секций */
+    }
+
+    .header {
+        padding: 1rem 0rem; /* Уменьшаем отступы в секции "header" */
+    }
+
+    .header-area .header-content .header-title {
+        font: normal 900 40px/40px var(--raleway); /* Уменьшаем размер заголовка для компактного вида */
+        padding: 12px; /* Сокращаем внутренние отступы */
+        border-top: 2px solid #fff; /* Задаем тонкие верхние и нижние линии */
+        border-bottom: 2px solid #fff;
+        letter-spacing: 6px; /* Уменьшаем расстояние между буквами */
+    }
+
+    .header-area .header-content .header-para {
+        color: #fff; /* Цвет текста остается белым */
+        font-size: 12px; /* Уменьшаем размер текста для узких экранов */
+    }
+
+    /* about-area */
+    .about-area {
+        padding: 1rem; /* Уменьшаем отступы вокруг секции "about" */
+    }
+
+    .about-area .about-content h5 {
+        font: normal 500 16px/18px var(--roboto); /* Уменьшаем размер шрифта заголовка секции */
+    }
+
+    .about-area img {
+        display: none; /* Скрываем изображение для оптимизации пространства на узких экранах */
+    }
+
+    /* work-place area */
+    .work-place {
+        padding: 0rem; /* Убираем внутренние отступы для секции "work-place" */
+        background: #f6f6f6; /* Светлый фон остается */
+    }
+
+    .work-place .card {
+        padding: 2rem 0; /* Уменьшаем внутренние отступы карточек */
+        margin-bottom: 1rem; /* Добавляем отступ между карточками */
+    }
+
+    .work-place .card h4 {
+        font: normal 600 15px/18px var(--raleway); /* Уменьшаем размер заголовков карточек */
+        text-transform: uppercase; /* Преобразуем текст в верхний регистр */
+        padding-bottom: 0.8rem; /* Уменьшаем нижний отступ */
+    }
+
+    /* bio-data */
+    .bio-data {
+        padding: 1.2rem 0; /* Сокращаем внутренние отступы */
+    }
+
+    /* portfolio-area */
+    .portfolio-area {
+        padding: 1rem 0; /* Уменьшаем отступы вокруг секции "portfolio" */
+    }
+
+    .portfolio-area .portfolio-image img {
+        width: 100%; /* Изображение занимает всю ширину контейнера */
+        height: 240px; /* Ограничиваем высоту изображений */
+        padding-top: 1rem; /* Добавляем отступ сверху для разделения изображений */
+    }
+
+    /* testimonial-area */
+    .testimonial-area {
+        padding: 2rem 1rem; /* Уменьшаем внутренние отступы секции "testimonial" */
+    }
+
+    .testimonial-area .single {
+        padding: 1rem 0; /* Уменьшаем внутренние отступы для отдельных отзывов */
+    }
+
+    /* footer-area */
+    .footer-area .footer-top {
+        padding: 1rem 0; /* Сокращаем внутренние отступы верхней части футера */
+    }
+}
+
+
+
+
+
